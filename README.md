@@ -13,20 +13,6 @@ The project includes:
 
 ---
 
-## 🔍 Problem Statements
-
-The project aims to answer the following questions:
-
-- How have digital transactions grown across India over the years?
-- Which transaction categories contribute the most to digital payments?
-- How do population density and demographics influence transaction volume?
-- Which states have the highest user adoption and engagement?
-- What is the average transaction amount per user across states?
-- Which smartphone brands dominate PhonePe usage?
-- Are district-level and state-level datasets consistent with each other?
-
----
-
 ## 💡 Objectives
 
 - Analyze transaction growth trends across states and years
