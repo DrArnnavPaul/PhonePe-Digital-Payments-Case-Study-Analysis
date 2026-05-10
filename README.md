@@ -148,29 +148,6 @@ This project demonstrates how data analytics and visualization techniques can be
 
 ---
 
-## 📁 Project Structure
-
-```bash
-PhonePe-Transaction-Analysis/
-│
-├── datasets/
-├── notebooks/
-├── visualizations/
-├── README.md
-└── requirements.txt
-```
-
----
-
-## 🚀 Future Improvements
-
-- Build an interactive Power BI/Tableau dashboard
-- Add predictive analytics and forecasting
-- Perform state-wise clustering analysis
-- Create automated reporting dashboards
-
----
-
 ## 👨‍💻 Author
 
 Arnnav Paul  
