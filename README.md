@@ -1,96 +1,100 @@
 # PhonePe-Digital-Payments-Case-Study-Analysis
-(Analyzing Transaction and Demographic Data)
+This project explores and analyzes PhonePe transaction, user, device, and demographic datasets across Indian states and districts. The project was completed as part of my Data Analytics learning journey to understand digital payment behavior, transaction growth, user engagement, and demographic impact using Python-based data analysis and visualization.
 
-Overview: This case study involves analyzing transaction data from the financial
-application PhonePe along with demographic data across various states and
-districts in India. The objective is to provide insights into transaction trends,
-device usage, and demographic correlations, while ensuring data consistency and
-performing advanced analyses to uncover deeper insights.
+🔍 Problem Statements
 
-The datasets span multiple years and quarters, providing a comprehensive view
-of transactions, user behavior, and demographic details. Participants are
-expected to use their Python skills to load, explore, and analyze the data,
-ultimately deriving meaningful insights and visualizations.
+The project aimed to answer the following analytical questions:
 
-Dataset Details:
-The data is spread across multiple sheets in an Excel file, each containing
-different aspects of the transaction and demographic data. Below is an overview
-of each dataset:
+How have digital transactions grown across India over the years?
+Which transaction categories contribute the most to digital payments?
+How do population density and demographics influence transaction volume?
+Which states have the highest user adoption and engagement?
+What is the average transaction amount per user across states?
+Which smartphone brands dominate PhonePe usage?
+How do user registrations and app opens vary over time?
+Are district-level and state-level datasets consistent with each other?
+💡 Why I Chose This Project
 
-This case study utilizes three key datasets, each providing daily updates on
-different aspects of the pandemic for various countries and regions:
+I selected this project to work on a real-world fintech dataset and gain practical experience in:
 
-. State_Txn and Users: This dataset contains transaction and user data at the
-state level. It includes information on the number of transactions, total
-transaction amount, average transaction value, number of registered users, and
-app opens.
+Exploratory Data Analysis (EDA)
+Data cleaning and preprocessing
+Data merging and aggregation
+Correlation analysis
+Business insight generation
+Data visualization and storytelling
 
-. State_TxnSplit: This dataset provides a breakdown of transaction types at the
-state level. It includes information on different transaction types, the number of
-transactions, total transaction amount, and average transaction value for each
-type.
+The project helped me understand how data analytics can be applied to solve real business problems in the digital payments and fintech industry.
 
-. State_DeviceData: This dataset details the device brands used by registered
-users at the state level. It includes information on the number of registered
-users per device brand and the percentage of users using each brand.
+🧰 Tools & Technologies Used
+Programming & Analysis
+Python
+Pandas
+NumPy
+Visualization
+Matplotlib
+Seaborn
+Techniques Used
+GroupBy Aggregations
+Dataset Merging
+Correlation Analysis
+Ratio Calculations
+Trend Analysis
+Data Validation & Consistency Checks
+🧠 Approach
+Data Cleaning & Preprocessing
+Cleaned formatted numerical values
+Handled missing values and duplicates
+Standardized datasets for analysis
+Data Quality Validation
+Compared district-level and state-level datasets
+Verified transaction consistency across datasets
+Exploratory Data Analysis
 
-. District_Txn and Users: This dataset contains transaction and user data at the
-district level. It includes information on the number of transactions, total
-transaction amount, average transaction value, number of registered users, and
-app opens for each district.
+Performed analysis on:
 
-· District Demographics: This dataset provides demographic details for each
-district. It includes information on the population, area, population density, and
-district headquarters.
+Transaction growth trends
+User adoption patterns
+Device brand usage
+Transaction type distribution
+Demographic influence on transactions
+Visualization
 
-Data Dictionary:
-Below is the data dictionary for the datasets used in this case study:
+Created multiple visualizations including:
 
-1. State_Txn and Users
-•	State: Name of the state
-•	Year: Year of the data
-•	Quarter: Quarter of the year
-•	Transactions: Number of transactions
-•	Amount (INR): Total amount of transactions in INR
-•	ATV (INR): Average transaction value in INR
-•	Registered Users: Number of registered users
-•	App Opens: Number of app opens
+Line Charts
+Scatter Plots
+Pie Charts
+Bar Charts
+Correlation Heatmaps
+Insight Generation
 
-2. State_TxnSplit
-•	State: Name of the state
-•	Year: Year of the data
-•	Quarter: Quarter of the year
-•	Transaction Type: Type of transaction (e.g., Recharge & bill payments, Peer-to-peer payments)
-•	Transactions: Number of transactions
-•	Amount (INR): Total amount of transactions in INR
-•	ATV (INR): Average transaction value in INR
+Translated raw data into business insights and practical recommendations for digital payment growth and customer engagement.
 
-3. State_DeviceData
-•	State: Name of the state
-•	Year: Year of the data
-•	Quarter: Quarter of the year
-•	Brand: Brand of the device
-•	Registered Users: Number of registered users using the brand
-•	Percentage: Percentage of registered users using the brand
+📊 Key Visuals
+Overall Transaction Growth Trend (2018–2021)
+Transaction Type Distribution Pie Chart
+Population Density vs Transaction Volume Scatter Plot
+Device Brand Usage Ratio by State
+User-to-Population Ratio Analysis
+Correlation Heatmap of Demographic and Transaction Data
+State-wise Transaction Comparison
+✅ Key Takeaways
+Digital transactions and transaction amounts increased significantly from 2018 to 2021.
+Peer-to-peer payments dominated the transaction ecosystem.
+Higher population density districts generally showed higher transaction volumes.
+Registered users and app engagement increased consistently over time.
+Xiaomi, Samsung, and Vivo dominated device usage across most states.
+Android users formed the majority of the PhonePe user base.
+User adoption varied significantly across states based on digital infrastructure and urbanization.
+Demographic factors strongly influenced digital payment behavior.
+📌 Recommendations
+Increase digital payment awareness in low-adoption states.
+Strengthen merchant payment infrastructure and QR adoption.
+Optimize app performance for Android and mid-range devices.
+Target densely populated urban regions for faster growth.
+Promote financial services and underused transaction categories.
+Use state-wise behavioral insights for region-specific marketing strategies.
+📁 Project Outcome
 
-4. District_Txn and Users
-•	State: Name of the state
-•	Year: Year of the data
-•	Quarter: Quarter of the year
-•	District: Name of the district
-•	Code: District code
-•	Transactions: Number of transactions
-•	Amount (INR): Total amount of transactions in INR
-•	ATV (INR): Average transaction value in INR
-•	Registered Users: Number of registered users
-•	App Opens: Number of app opens
-
-6. District Demographics
-•	State: Name of the state
-•	District: Name of the district
-•	Headquarters: District headquarters
-•	Population: Population of the district
-•	Area (sq km): Area of the district in square kilometers
-•	Density: Population density
-•	Code: District code
-•	Alternate Name: Alternate name of the district
+This project successfully demonstrates how Python-based data analytics and visualization techniques can be used to analyze large-scale fintech datasets, uncover meaningful business insights, and support data-driven decision-making in India’s rapidly growing digital payment ecosystem.
